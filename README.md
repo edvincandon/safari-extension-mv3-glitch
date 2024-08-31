@@ -20,6 +20,8 @@ After Safari clears history, all active extension service workers terminate - _i
 4. Reopen extension popup.
 5. Observe: Service worker fails to reactivate on new messages. ⚠️
 
+<img src="screenshots/sw-not-activated.png" width="420">
+
 #### Scenario 1:
 
 6. Click "reload runtime".
@@ -34,13 +36,13 @@ After Safari clears history, all active extension service workers terminate - _i
 8. Observe: Message failures due to corrupted service worker. ⚠️
 9. Recovery: Deactivate/reactivate again or click "reload runtime".
 
-#### Recovery Methods:
+## Recovery Methods:
 
 - Reload browser extension runtime twice.
 - Reactivate extension twice.
 - Wait 30 seconds for stale worker termination.
 
-#### Testing & Inspecting Corrupted State
+## Testing & Inspecting Corrupted State
 
 Popup buttons:
 
@@ -52,3 +54,5 @@ Verify service-worker corrupted state:
 
 1. Inspect extension's service worker.
 2. Execute `browser.runtime` (should throw an error).
+
+<img src="screenshots/sw-browser-undefined.png" width="420">

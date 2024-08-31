@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3A994D2C83432000DDE91C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99432C83432000DDE91C /* popup.html */; };
+		7E3A994E2C83432000DDE91C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99442C83432000DDE91C /* popup.js */; };
+		7E3A994F2C83432000DDE91C /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99452C83432000DDE91C /* styles.css */; };
+		7E3A99502C83432000DDE91C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99462C83432000DDE91C /* manifest.json */; };
+		7E3A99512C83432000DDE91C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99472C83432000DDE91C /* background.js */; };
+		7E3A99522C83432000DDE91C /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99482C83432000DDE91C /* icon16.png */; };
+		7E3A99532C83432000DDE91C /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A99492C83432000DDE91C /* icon32.png */; };
+		7E3A99542C83432000DDE91C /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A994A2C83432000DDE91C /* icon48.png */; };
+		7E3A99552C83432000DDE91C /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A994B2C83432000DDE91C /* icon128.png */; };
+		7E4B683B2C82ED1200FA1B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B683A2C82ED1200FA1B81 /* AppDelegate.swift */; };
+		7E4B683F2C82ED1200FA1B81 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B683E2C82ED1200FA1B81 /* Base */; };
+		7E4B68412C82ED1200FA1B81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B68402C82ED1200FA1B81 /* Icon.png */; };
+		7E4B68432C82ED1200FA1B81 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B68422C82ED1200FA1B81 /* Style.css */; };
+		7E4B68452C82ED1200FA1B81 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B68442C82ED1200FA1B81 /* Script.js */; };
+		7E4B68472C82ED1200FA1B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B68462C82ED1200FA1B81 /* ViewController.swift */; };
+		7E4B684A2C82ED1200FA1B81 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B68492C82ED1200FA1B81 /* Base */; };
+		7E4B684C2C82ED1300FA1B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B684B2C82ED1300FA1B81 /* Assets.xcassets */; };
+		7E4B68552C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E4B68542C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E4B685A2C82ED1300FA1B81 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B68592C82ED1300FA1B81 /* SafariWebExtensionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E4B68562C82ED1300FA1B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4B682F2C82ED1200FA1B81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E4B68532C82ED1300FA1B81;
+			remoteInfo = "MV3 Safari SW Glitch Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E4B68622C82ED1300FA1B81 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E4B68552C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E3A99432C83432000DDE91C /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7E3A99442C83432000DDE91C /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7E3A99452C83432000DDE91C /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		7E3A99462C83432000DDE91C /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7E3A99472C83432000DDE91C /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7E3A99482C83432000DDE91C /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon16.png; sourceTree = "<group>"; };
+		7E3A99492C83432000DDE91C /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon32.png; sourceTree = "<group>"; };
+		7E3A994A2C83432000DDE91C /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon48.png; sourceTree = "<group>"; };
+		7E3A994B2C83432000DDE91C /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon128.png; sourceTree = "<group>"; };
+		7E4B68372C82ED1200FA1B81 /* MV3 Safari SW Glitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MV3 Safari SW Glitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4B683A2C82ED1200FA1B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E4B683E2C82ED1200FA1B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7E4B68402C82ED1200FA1B81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7E4B68422C82ED1200FA1B81 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7E4B68442C82ED1200FA1B81 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7E4B68462C82ED1200FA1B81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E4B68492C82ED1200FA1B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E4B684B2C82ED1300FA1B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E4B684D2C82ED1300FA1B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4B684E2C82ED1300FA1B81 /* MV3_Safari_SW_Glitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MV3_Safari_SW_Glitch.entitlements; sourceTree = "<group>"; };
+		7E4B684F2C82ED1300FA1B81 /* MV3 Safari SW Glitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MV3 Safari SW Glitch.entitlements"; sourceTree = "<group>"; };
+		7E4B68542C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MV3 Safari SW Glitch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4B68592C82ED1300FA1B81 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7E4B685B2C82ED1300FA1B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4B685C2C82ED1300FA1B81 /* MV3_Safari_SW_Glitch_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MV3_Safari_SW_Glitch_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E4B68342C82ED1200FA1B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4B68512C82ED1300FA1B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3A994C2C83432000DDE91C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A99482C83432000DDE91C /* icon16.png */,
+				7E3A99492C83432000DDE91C /* icon32.png */,
+				7E3A994A2C83432000DDE91C /* icon48.png */,
+				7E3A994B2C83432000DDE91C /* icon128.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		7E4B682E2C82ED1200FA1B81 = {
+			isa = PBXGroup;
+			children = (
+				7E4B68392C82ED1200FA1B81 /* MV3 Safari SW Glitch */,
+				7E4B68582C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension */,
+				7E4B68382C82ED1200FA1B81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E4B68382C82ED1200FA1B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B68372C82ED1200FA1B81 /* MV3 Safari SW Glitch.app */,
+				7E4B68542C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E4B68392C82ED1200FA1B81 /* MV3 Safari SW Glitch */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B683A2C82ED1200FA1B81 /* AppDelegate.swift */,
+				7E4B68462C82ED1200FA1B81 /* ViewController.swift */,
+				7E4B68482C82ED1200FA1B81 /* Main.storyboard */,
+				7E4B684B2C82ED1300FA1B81 /* Assets.xcassets */,
+				7E4B684D2C82ED1300FA1B81 /* Info.plist */,
+				7E4B684E2C82ED1300FA1B81 /* MV3_Safari_SW_Glitch.entitlements */,
+				7E4B684F2C82ED1300FA1B81 /* MV3 Safari SW Glitch.entitlements */,
+				7E4B683C2C82ED1200FA1B81 /* Resources */,
+			);
+			path = "MV3 Safari SW Glitch";
+			sourceTree = "<group>";
+		};
+		7E4B683C2C82ED1200FA1B81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B683D2C82ED1200FA1B81 /* Main.html */,
+				7E4B68402C82ED1200FA1B81 /* Icon.png */,
+				7E4B68422C82ED1200FA1B81 /* Style.css */,
+				7E4B68442C82ED1200FA1B81 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E4B68582C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B68662C82ED1300FA1B81 /* Resources */,
+				7E4B68592C82ED1300FA1B81 /* SafariWebExtensionHandler.swift */,
+				7E4B685B2C82ED1300FA1B81 /* Info.plist */,
+				7E4B685C2C82ED1300FA1B81 /* MV3_Safari_SW_Glitch_Extension.entitlements */,
+			);
+			path = "MV3 Safari SW Glitch Extension";
+			sourceTree = "<group>";
+		};
+		7E4B68662C82ED1300FA1B81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A994C2C83432000DDE91C /* assets */,
+				7E3A99472C83432000DDE91C /* background.js */,
+				7E3A99462C83432000DDE91C /* manifest.json */,
+				7E3A99432C83432000DDE91C /* popup.html */,
+				7E3A99442C83432000DDE91C /* popup.js */,
+				7E3A99452C83432000DDE91C /* styles.css */,
+			);
+			name = Resources;
+			path = "MV3 Safari SW Glitch Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E4B68362C82ED1200FA1B81 /* MV3 Safari SW Glitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4B68632C82ED1300FA1B81 /* Build configuration list for PBXNativeTarget "MV3 Safari SW Glitch" */;
+			buildPhases = (
+				7E4B68332C82ED1200FA1B81 /* Sources */,
+				7E4B68342C82ED1200FA1B81 /* Frameworks */,
+				7E4B68352C82ED1200FA1B81 /* Resources */,
+				7E4B68622C82ED1300FA1B81 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4B68572C82ED1300FA1B81 /* PBXTargetDependency */,
+			);
+			name = "MV3 Safari SW Glitch";
+			productName = "MV3 Safari SW Glitch";
+			productReference = 7E4B68372C82ED1200FA1B81 /* MV3 Safari SW Glitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E4B68532C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E4B685F2C82ED1300FA1B81 /* Build configuration list for PBXNativeTarget "MV3 Safari SW Glitch Extension" */;
+			buildPhases = (
+				7E4B68502C82ED1300FA1B81 /* Sources */,
+				7E4B68512C82ED1300FA1B81 /* Frameworks */,
+				7E4B68522C82ED1300FA1B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MV3 Safari SW Glitch Extension";
+			productName = "MV3 Safari SW Glitch Extension";
+			productReference = 7E4B68542C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E4B682F2C82ED1200FA1B81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7E4B68362C82ED1200FA1B81 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7E4B68532C82ED1300FA1B81 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7E4B68322C82ED1200FA1B81 /* Build configuration list for PBXProject "MV3 Safari SW Glitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E4B682E2C82ED1200FA1B81;
+			productRefGroup = 7E4B68382C82ED1200FA1B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E4B68362C82ED1200FA1B81 /* MV3 Safari SW Glitch */,
+				7E4B68532C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E4B68352C82ED1200FA1B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B68412C82ED1200FA1B81 /* Icon.png in Resources */,
+				7E4B68452C82ED1200FA1B81 /* Script.js in Resources */,
+				7E4B683F2C82ED1200FA1B81 /* Base in Resources */,
+				7E4B68432C82ED1200FA1B81 /* Style.css in Resources */,
+				7E4B684C2C82ED1300FA1B81 /* Assets.xcassets in Resources */,
+				7E4B684A2C82ED1200FA1B81 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4B68522C82ED1300FA1B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3A99502C83432000DDE91C /* manifest.json in Resources */,
+				7E3A99522C83432000DDE91C /* icon16.png in Resources */,
+				7E3A99552C83432000DDE91C /* icon128.png in Resources */,
+				7E3A99542C83432000DDE91C /* icon48.png in Resources */,
+				7E3A99532C83432000DDE91C /* icon32.png in Resources */,
+				7E3A994F2C83432000DDE91C /* styles.css in Resources */,
+				7E3A994D2C83432000DDE91C /* popup.html in Resources */,
+				7E3A994E2C83432000DDE91C /* popup.js in Resources */,
+				7E3A99512C83432000DDE91C /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E4B68332C82ED1200FA1B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B68472C82ED1200FA1B81 /* ViewController.swift in Sources */,
+				7E4B683B2C82ED1200FA1B81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4B68502C82ED1300FA1B81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B685A2C82ED1300FA1B81 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E4B68572C82ED1300FA1B81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E4B68532C82ED1300FA1B81 /* MV3 Safari SW Glitch Extension */;
+			targetProxy = 7E4B68562C82ED1300FA1B81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E4B683D2C82ED1200FA1B81 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4B683E2C82ED1200FA1B81 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7E4B68482C82ED1200FA1B81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4B68492C82ED1200FA1B81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E4B685D2C82ED1300FA1B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E4B685E2C82ED1300FA1B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7E4B68602C82ED1300FA1B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MV3 Safari SW Glitch Extension/MV3_Safari_SW_Glitch_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SB5Z68H26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MV3 Safari SW Glitch Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MV3 Safari SW Glitch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.MV3-Safari-SW-Glitch.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E4B68612C82ED1300FA1B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MV3 Safari SW Glitch Extension/MV3_Safari_SW_Glitch_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SB5Z68H26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MV3 Safari SW Glitch Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MV3 Safari SW Glitch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.MV3-Safari-SW-Glitch.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7E4B68642C82ED1300FA1B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MV3 Safari SW Glitch/MV3 Safari SW Glitch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SB5Z68H26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MV3 Safari SW Glitch/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MV3 Safari SW Glitch";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.MV3-Safari-SW-Glitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E4B68652C82ED1300FA1B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MV3 Safari SW Glitch/MV3 Safari SW Glitch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SB5Z68H26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MV3 Safari SW Glitch/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MV3 Safari SW Glitch";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.MV3-Safari-SW-Glitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4B68322C82ED1200FA1B81 /* Build configuration list for PBXProject "MV3 Safari SW Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4B685D2C82ED1300FA1B81 /* Debug */,
+				7E4B685E2C82ED1300FA1B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4B685F2C82ED1300FA1B81 /* Build configuration list for PBXNativeTarget "MV3 Safari SW Glitch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4B68602C82ED1300FA1B81 /* Debug */,
+				7E4B68612C82ED1300FA1B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E4B68632C82ED1300FA1B81 /* Build configuration list for PBXNativeTarget "MV3 Safari SW Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4B68642C82ED1300FA1B81 /* Debug */,
+				7E4B68652C82ED1300FA1B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E4B682F2C82ED1200FA1B81 /* Project object */;
+}

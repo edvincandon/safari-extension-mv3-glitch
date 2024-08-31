@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <h2>MV3 Safari SW glitch</h2>
+        <blockquote>
+            This Safari extension demonstrates a critical issue with MV3 service worker
+            management in Safari. When Safari's cookies/history are cleared, all active
+            extension service workers are terminated. Upon the first attempt to respawn,
+            the service worker enters a corrupted state where:
+            <ul>
+                <li>The 'browser' API becomes undefined, breaking core functionality.</li>
+                <li>The service worker fails to respond but continues to receive messages.</li>
+                <li>After 30s of inactivity, the service worker may respawn in a correct state.</li>
+            </ul>
+        </blockquote>
+        <div>
+            <button id="send">Send message</button>
+            <button id="sendRetry">Retryable message</button>
+            <button id="reload">Reload runtime</button>
+        </div>
+
+     
+
+        <div>
+            <h4>Worker status : <span id="status">idle</span></h4>
+            <br />
+            <div class="sep">Logs
+                <hr />
+            </div>
+            <textarea id="logs" rows="12" readonly></textarea>
+        </div>
+        <div>
+
+            <script src="popup.js"></script>
+</body>
+
+</html>
